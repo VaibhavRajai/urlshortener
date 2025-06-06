@@ -25,7 +25,7 @@ A simple and efficient RESTful API that shortens long URLs into compact, easy-to
 
 ##  API Endpoints
 
-###  `POST /api/shorten`
+###  `POST /api/url`
 Create a new short URL.
 
 #### Request:
