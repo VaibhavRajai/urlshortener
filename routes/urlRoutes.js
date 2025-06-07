@@ -2,8 +2,8 @@ const express=require('express')
 const router=express.Router();
 const urlController=require('../controllers/urlControllers')
 
-router.post('/',urlController.shorterenUrl)
-router.get('/',urlController.redirectToLongUrl)
-router.get('/',urlController.getAnalytics)
+router.post('/shorterenUrl',urlController.shorterenUrl)
+router.get('/redirectToLongUrl',urlController.redirectToLongUrl)
+router.get('/getAnalytics',urlController.getAnalytics)
 
 module.exports=router;
