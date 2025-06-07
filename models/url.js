@@ -1,5 +1,5 @@
 const mongoose=require('mongoose')
-
+//sechma for url 
 const urlSchema=new mongoose.Schema({
     longUrl:{
         type:String,
